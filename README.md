@@ -23,11 +23,17 @@ Por confidencialidad, el repositorio no incluye datos reales de Oracle ni inform
 ```text
 .
 ├── entregas/
-│   └── avance_1_eda/
-│       ├── Avance1.4.ipynb
+│   ├── avance_1_eda/
+│   │   ├── Avance1.4.ipynb
+│   │   ├── README.md
+│   │   └── data/
+│   │       └── release_readiness_synthetic.csv
+│   └── avance_2_feature_engineering/
+│       ├── Avance2.4.ipynb
 │       ├── README.md
 │       └── data/
-│           └── release_readiness_synthetic.csv
+│           ├── aurora_features_model_ready.csv
+│           └── aurora_feature_engineering_summary.csv
 ├── requirements.txt
 └── .gitignore
 ```
@@ -37,6 +43,7 @@ Por confidencialidad, el repositorio no incluye datos reales de Oracle ni inform
 | Avance | Tema | Archivo principal | Estado |
 |---|---|---|---|
 | 1 | Analisis exploratorio de datos | `entregas/avance_1_eda/Avance1.4.ipynb` | Listo |
+| 2 | Ingenieria de caracteristicas | `entregas/avance_2_feature_engineering/Avance2.4.ipynb` | Listo |
 
 ## Ejecucion
 

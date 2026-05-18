@@ -1,0 +1,84 @@
+variable,origin,transformation,justification,kept_in_final_dataset
+week,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+change_type,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+component_area,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+synthetic_component_id,original,Agrupada como synthetic_component_grouped,Reducir alta cardinalidad y mejorar generalizacion,False
+branch_type,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+validation_level,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+environment_profile,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+files_changed,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+lines_added,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+lines_deleted,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+modules_touched,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+author_experience_months,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+prior_failures_90d,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+historical_failure_rate,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+pipeline_duration_min,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+coverage_delta_pct,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+tests_impacted_count,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+critical_files_touched,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+documentation_refs_count,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,False
+open_defects_linked,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+release_pressure_score,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+reviewer_count,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+validation_gap_count,original,Imputacion y posible escalamiento/log segun tipo,Preparar senal predictiva sin fuga de informacion,True
+coverage_delta_pct_was_missing,engineered,Construida a partir de variables existentes,"Capturar complejidad, evidencia, densidad o contexto de riesgo",False
+documentation_refs_count_was_missing,engineered,Construida a partir de variables existentes,"Capturar complejidad, evidencia, densidad o contexto de riesgo",False
+author_experience_months_was_missing,engineered,Construida a partir de variables existentes,"Capturar complejidad, evidencia, densidad o contexto de riesgo",True
+total_lines_changed,engineered,Construida a partir de variables existentes,"Capturar complejidad, evidencia, densidad o contexto de riesgo",False
+net_lines_changed,engineered,Construida a partir de variables existentes,"Capturar complejidad, evidencia, densidad o contexto de riesgo",True
+change_density_lines_per_file,engineered,Construida a partir de variables existentes,"Capturar complejidad, evidencia, densidad o contexto de riesgo",True
+tests_per_file_changed,engineered,Construida a partir de variables existentes,"Capturar complejidad, evidencia, densidad o contexto de riesgo",True
+tests_per_module_touched,engineered,Construida a partir de variables existentes,"Capturar complejidad, evidencia, densidad o contexto de riesgo",False
+defects_per_module,engineered,Construida a partir de variables existentes,"Capturar complejidad, evidencia, densidad o contexto de riesgo",True
+validation_gap_ratio,engineered,Construida a partir de variables existentes,"Capturar complejidad, evidencia, densidad o contexto de riesgo",True
+evidence_completeness_score,engineered,Construida a partir de variables existentes,"Capturar complejidad, evidencia, densidad o contexto de riesgo",False
+is_large_change,engineered,Construida a partir de variables existentes,"Capturar complejidad, evidencia, densidad o contexto de riesgo",True
+is_high_pressure,engineered,Construida a partir de variables existentes,"Capturar complejidad, evidencia, densidad o contexto de riesgo",True
+is_negative_coverage_delta,engineered,Construida a partir de variables existentes,"Capturar complejidad, evidencia, densidad o contexto de riesgo",True
+log1p_files_changed,transformed,log1p + StandardScaler,Mitigar sesgo a la derecha y mejorar convergencia,True
+log1p_lines_added,transformed,log1p + StandardScaler,Mitigar sesgo a la derecha y mejorar convergencia,True
+log1p_lines_deleted,transformed,log1p + StandardScaler,Mitigar sesgo a la derecha y mejorar convergencia,True
+log1p_modules_touched,transformed,log1p + StandardScaler,Mitigar sesgo a la derecha y mejorar convergencia,True
+log1p_pipeline_duration_min,transformed,log1p + StandardScaler,Mitigar sesgo a la derecha y mejorar convergencia,True
+log1p_tests_impacted_count,transformed,log1p + StandardScaler,Mitigar sesgo a la derecha y mejorar convergencia,True
+log1p_open_defects_linked,transformed,log1p + StandardScaler,Mitigar sesgo a la derecha y mejorar convergencia,True
+log1p_total_lines_changed,transformed,log1p + StandardScaler,Mitigar sesgo a la derecha y mejorar convergencia,False
+log1p_change_density_lines_per_file,transformed,log1p + StandardScaler,Mitigar sesgo a la derecha y mejorar convergencia,True
+log1p_tests_per_file_changed,transformed,log1p + StandardScaler,Mitigar sesgo a la derecha y mejorar convergencia,True
+log1p_tests_per_module_touched,transformed,log1p + StandardScaler,Mitigar sesgo a la derecha y mejorar convergencia,False
+change_type_bugfix,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+change_type_configuration,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+change_type_dependency,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+change_type_feature,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+change_type_refactor,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+change_type_test,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+component_area_functional_area_a,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+component_area_functional_area_b,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+component_area_functional_area_c,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+component_area_functional_area_d,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+component_area_functional_area_e,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+component_area_functional_area_f,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+branch_type_development,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+branch_type_hotfix,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+branch_type_release_candidate,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+validation_level_basic_checks,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+validation_level_broad_regression_checks,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+validation_level_component_checks,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+validation_level_integrated_checks,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+validation_level_readiness_review,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+environment_profile_profile_dependency,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+environment_profile_profile_distributed,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+environment_profile_profile_extended,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+environment_profile_profile_standard,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+synthetic_component_grouped_CMP_002,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+synthetic_component_grouped_CMP_003,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+synthetic_component_grouped_CMP_006,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+synthetic_component_grouped_CMP_010,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+synthetic_component_grouped_CMP_011,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+synthetic_component_grouped_CMP_012,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+synthetic_component_grouped_CMP_014,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+synthetic_component_grouped_CMP_015,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+synthetic_component_grouped_CMP_016,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+synthetic_component_grouped_CMP_018,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
+synthetic_component_grouped_other_component,encoded_or_scaled,One-hot encoding o StandardScaler,Variable conservada por filtros de seleccion,True
