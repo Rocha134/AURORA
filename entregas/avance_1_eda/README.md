@@ -20,7 +20,7 @@ AURORA es un caso de estudio academico que utiliza datos sinteticos para explora
 
 ## Privacidad
 
-El dataset es completamente sintetico. No contiene datos reales de Oracle ni informacion confidencial. Las variables son genericas y fueron creadas para demostrar el proceso de EDA sin exponer sistemas, tecnologias, clientes, procedimientos, repositorios, URLs, credenciales ni metricas reales.
+El dataset es completamente sintetico. No contiene datos reales de ninguna organizacion ni informacion confidencial. Las variables son genericas y fueron creadas para demostrar el proceso de EDA sin exponer sistemas, tecnologias, clientes, procedimientos, repositorios, URLs, credenciales ni metricas reales.
 
 ## Contenido cubierto
 
