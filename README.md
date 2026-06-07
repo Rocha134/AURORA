@@ -42,13 +42,23 @@ Por confidencialidad, el repositorio no incluye datos reales de ninguna organiza
 │   │       ├── aurora_baseline_metrics.csv
 │   │       ├── aurora_baseline_predictions.csv
 │   │       └── figures/
-│   └── avance_4_modelos_alternativos/
-│       ├── Avance4.4.ipynb
+│   ├── avance_4_modelos_alternativos/
+│   │   ├── Avance4.4.ipynb
+│   │   ├── README.md
+│   │   └── data/
+│   │       ├── aurora_alternative_models_comparison.csv
+│   │       ├── aurora_final_model_predictions.csv
+│   │       ├── aurora_tuned_models_results.csv
+│   │       └── figures/
+│   └── avance_5_modelo_final/
+│       ├── Avance5.4.ipynb
 │       ├── README.md
 │       └── data/
-│           ├── aurora_alternative_models_comparison.csv
+│           ├── aurora_ensemble_model_comparison.csv
+│           ├── aurora_final_model_feature_importance.csv
 │           ├── aurora_final_model_predictions.csv
-│           ├── aurora_tuned_models_results.csv
+│           ├── aurora_final_model_summary.csv
+│           ├── aurora_final_model_threshold_analysis.csv
 │           └── figures/
 ├── requirements.txt
 └── .gitignore
@@ -62,6 +72,7 @@ Por confidencialidad, el repositorio no incluye datos reales de ninguna organiza
 | 2 | Ingenieria de caracteristicas | `entregas/avance_2_feature_engineering/Avance2.4.ipynb` | Listo |
 | 3 | Baseline | `entregas/avance_3_baseline/Avance3.4.ipynb` | Listo |
 | 4 | Modelos alternativos | `entregas/avance_4_modelos_alternativos/Avance4.4.ipynb` | Listo |
+| 5 | Modelo final | `entregas/avance_5_modelo_final/Avance5.4.ipynb` | Listo |
 
 ## Ejecucion
 

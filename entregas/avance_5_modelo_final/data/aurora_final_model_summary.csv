@@ -1,0 +1,2 @@
+rank,model,model_family,ensemble_strategy,split,pr_auc_average_precision,roc_auc,accuracy,balanced_accuracy,precision_positive,recall_positive,f1_positive,training_time_sec,best_cv_pr_auc,best_params
+1,stacking_heterogeneous,ensemble,heterogeneous_stacking,test,0.9858213597549766,0.9941118108877578,0.95625,0.9582218962988526,0.8896551724137931,0.9626865671641791,0.9247311827956989,1.6913667919870932,0.9824802190109434,"{'final_estimator__C': 0.1, 'passthrough': False}"
